@@ -3,15 +3,42 @@
 <head>
 	<title>웹수업</title>
 	<meta charset="utf-8">
+	<style>
+		h1{
+			border-bottom:1px solid gray;
+			padding:20px;
+			margin-bottom:0;
+		}
+		h1 a{
+			text-decoration: none;
+		}
+		nav{
+			border-right:1px solid gray;
+			width:110px;
+			margin-top:0;
+		}
+		#main{
+			display: flex;
+		}
+		#article{
+			padding-left:20px;
+		}
+	</style>
 </head>
 <body>
 	<h1><a href="index.html">웹수업</a></h1>
-	<ol>
-		<li><a href="1.html">html</a></li>
-		<li><a href="2.html">css</a></li>
-		<li><a href="3.html">js</a></li>
-	</ol>
-	<h2>Welcome</h2>
-	웹수업에 오신 것을 환영합니다. 
+	<div id="main">
+		<nav>
+			<ol>
+				<li><a href="1.html">html</a></li>
+				<li><a href="2.html">css</a></li>
+				<li><a href="3.html">js</a></li>
+			</ol>
+		</nav>
+		<div id="article">
+			<h2>Welcome</h2>
+			환영합니다. 
+		</div>
+	</div>
 </body>
 </html>

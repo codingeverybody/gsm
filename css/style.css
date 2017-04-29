@@ -1,0 +1,19 @@
+h1{
+	border-bottom:1px solid gray;
+	padding:20px;
+	margin-bottom:0;
+}
+h1 a{
+	text-decoration: none;
+}
+nav{
+	border-right:1px solid gray;
+	width:110px;
+	margin-top:0;
+}
+#main{
+	display: flex;
+}
+#article{
+	padding-left:20px;
+}
